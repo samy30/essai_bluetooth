@@ -14,17 +14,30 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:text="entrer le texte a envoyer"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/button"
+        <EditText
+            android:id="@+id/text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/OnOf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ON/OF" />
+
+        <Button
+            android:id="@+id/envoyer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Envoyer" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
